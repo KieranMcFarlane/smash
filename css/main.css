@@ -1,0 +1,1234 @@
+/*! HTML5 Boilerplate v5.3.0 | MIT License | https://html5boilerplate.com/ */
+
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+/*
+ * Remove text-shadow in selection highlight:
+ * https://twitter.com/miketaylr/status/12228805301
+ *
+ * These selection rule sets have to be separate.
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+/*
+ * Remove the gap between audio, canvas, iframes,
+ * images, videos and the bottom of their containers:
+ * https://github.com/h5bp/html5-boilerplate/issues/440
+ */
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+    resize: vertical;
+}
+
+/* ==========================================================================
+   Browser Upgrade Prompt
+   ========================================================================== */
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+/*
+ * Hide visually and from screen readers
+ */
+
+.hidden {
+    display: none !important;
+}
+
+/*
+ * Hide only visually, but have it available for screen readers:
+ * http://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+ */
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element
+ * to be focusable when navigated to via the keyboard:
+ * https://www.drupal.org/node/897638
+ */
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+/*
+ * Hide visually and from screen readers, but maintain layout
+ */
+
+.invisible {
+    visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+    /* Style adjustments for viewports that meet the condition */
+}
+
+@media print,
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 1.25dppx),
+       (min-resolution: 120dpi) {
+    /* Style adjustments for high resolution devices */
+}
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid the additional HTTP request:
+   http://www.phpied.com/delay-loading-your-print-css/
+   ========================================================================== */
+
+@media print {
+    *,
+    *:before,
+    *:after,
+    *:first-letter,
+    *:first-line {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster:
+                                   http://www.sanbeiji.com/archives/953 */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links that are fragment identifiers,
+     * or use the `javascript:` pseudo protocol
+     */
+
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    /*
+     * Printing Tables:
+     * http://css-discuss.incutio.com/wiki/Printing_Tables
+     */
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
+
+// smash-css
+
+#HTML_1 {
+    height: 443px;
+    width: 1280px;
+    perspective-origin: 640px 221.5px;
+    transform-origin: 640px 221.5px;
+    background: rgb(235, 235, 235) url("http://tournamentscheduler.net/resources/images/tilebg.png") repeat scroll 0% 0% / auto padding-box border-box;
+    font: normal normal normal normal 13px / normal "Open Sans", "Lucida Sans Unicode", "Lucida Grande", Garuda, Arial, Helvetica, sans-serif;
+}/*#HTML_1*/
+
+#HEAD_2, #META_3, #LINK_6, #META_8, #META_10, #META_12, #LINK_14, #LINK_16, #SCRIPT_18, #SCRIPT_20, #SCRIPT_22, #SCRIPT_24, #SCRIPT_26, #STYLE_28 {
+    font: normal normal normal normal 13px / normal "Open Sans", "Lucida Sans Unicode", "Lucida Grande", Garuda, Arial, Helvetica, sans-serif;
+  font-weight: 300;
+}/*#HEAD_2, #META_3, #LINK_6, #META_8, #META_10, #META_12, #LINK_14, #LINK_16, #SCRIPT_18, #SCRIPT_20, #SCRIPT_22, #SCRIPT_24, #SCRIPT_26, #STYLE_28*/
+
+#TITLE_4, #META_7, #META_11, #LINK_15, #SCRIPT_19, #SCRIPT_23, #SCRIPT_27 {
+    font: normal normal normal normal 13px / normal "Open Sans", "Lucida Sans Unicode", "Lucida Grande", Garuda, Arial, Helvetica, sans-serif;
+}/*#TITLE_4, #META_7, #META_11, #LINK_15, #SCRIPT_19, #SCRIPT_23, #SCRIPT_27*/
+
+#BASE_5 {
+    perspective-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    font: normal normal normal normal 13px / normal "Open Sans", "Lucida Sans Unicode", "Lucida Grande", Garuda, Arial, Helvetica, sans-serif;
+}/*#BASE_5*/
+
+#META_9, #META_13, #SCRIPT_21, #STYLE_29 {
+    font: normal normal normal normal 13px / normal "Open Sans", "Lucida Sans Unicode", "Lucida Grande", Garuda, Arial, Helvetica, sans-serif;
+}/*#META_9, #META_13, #SCRIPT_21, #STYLE_29*/
+
+#SCRIPT_17, #SCRIPT_25 {
+    font: normal normal normal normal 13px / normal "Open Sans", "Lucida Sans Unicode", "Lucida Grande", Garuda, Arial, Helvetica, sans-serif;
+}/*#SCRIPT_17, #SCRIPT_25*/
+
+#BODY_30 {
+    height: 443px;
+    width: 1280px;
+    perspective-origin: 640px 221.5px;
+    transform-origin: 640px 221.5px;
+    background: rgb(235, 235, 235) url("http://tournamentscheduler.net/resources/images/tilebg.png") repeat scroll 0% 0% / auto padding-box border-box;
+    font: normal normal normal normal 13px / normal "Open Sans", "Lucida Sans Unicode", "Lucida Grande", Garuda, Arial, Helvetica, sans-serif;
+    margin: 0px;
+}/*#BODY_30*/
+
+#DIV_31 {
+    bottom: 0px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 28px -1px;
+    height: 100%;
+    left: 0px;
+    max-width: 889px;
+    min-height: 100%;
+    position: relative;
+    right: 0px;
+    top: 0px;
+    width: 889px;
+    perspective-origin: 444.5px 675.672px;
+    transform-origin: 444.5px 675.672px;
+    background: rgb(255, 255, 255) none repeat scroll 0% 0% / auto padding-box border-box;
+    font: normal normal normal normal 13px / normal "Open Sans", "Lucida Sans Unicode", "Lucida Grande", Garuda, Arial, Helvetica, sans-serif;
+    margin: 0px 195.5px;
+}/*#DIV_31*/
+
+#DIV_32 {
+    height: 100%;
+    width: 889px;
+    perspective-origin: 444.5px 586.172px;
+    transform-origin: 444.5px 586.172px;
+    font: normal normal normal normal 13px / normal "Open Sans", "Lucida Sans Unicode", "Lucida Grande", Garuda, Arial, Helvetica, sans-serif;
+    overflow: hidden;
+}/*#DIV_32*/
+
+#H1_33 {
+    height: 92px;
+    width: 889px;
+    perspective-origin: 444.5px 46px;
+    transform-origin: 444.5px 46px;
+    font: normal normal bold normal 26px / normal "Open Sans", "Lucida Sans Unicode", "Lucida Grande", Garuda, Arial, Helvetica, sans-serif;
+    margin: 0px;
+}/*#H1_33*/
+
+#A_34 {
+    color: rgb(134, 0, 0);
+    display: block;
+    height: 92px;
+    max-width: 391px;
+    text-decoration: none;
+    width: 391px;
+    column-rule-color: rgb(134, 0, 0);
+    perspective-origin: 195.5px 46px;
+    transform-origin: 195.5px 46px;
+    background: rgba(0, 0, 0, 0) url("../img/mario.gif") no-repeat scroll 0% 0% / contain padding-box border-box;
+    border: 0px none rgb(134, 0, 0);
+    font: normal normal bold normal 26px / normal "Open Sans", "Lucida Sans Unicode", "Lucida Grande", Garuda, Arial, Helvetica, sans-serif;
+    margin: 53.3281px 249px;
+    outline: rgb(134, 0, 0) none 0px;
+}/*#A_34*/
+
+#SPAN_35 {
+    color: rgb(134, 0, 0);
+    display: none;
+    column-rule-color: rgb(134, 0, 0);
+    perspective-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    border: 0px none rgb(134, 0, 0);
+    font: normal normal bold normal 26px / normal "Open Sans", "Lucida Sans Unicode", "Lucida Grande", Garuda, Arial, Helvetica, sans-serif;
+    outline: rgb(134, 0, 0) none 0px;
+}/*#SPAN_35*/
+
+#DIV_36 {
+    // height: 973.703px;
+    min-height: 100%;
+    text-align: justify;
+    width: 889px;
+    perspective-origin: 444.5px 486.844px;
+    transform-origin: 444.5px 486.844px;
+    font: normal normal normal normal 13px / 19px "Open Sans", "Lucida Sans Unicode", "Lucida Grande", Garuda, Arial, Helvetica, sans-serif;
+}/*#DIV_36*/
+
+#DIV_37, #DIV_168 {
+    display: none;
+    height: auto;
+    text-align: justify;
+    width: auto;
+    perspective-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    font: normal normal normal normal 13px / 19px "Open Sans", "Lucida Sans Unicode", "Lucida Grande", Garuda, Arial, Helvetica, sans-serif;
+    margin: 13px auto;
+    padding: 0px 2%;
+}/*#DIV_37, #DIV_168*/
+
+#INS_38, #INS_169 {
+    display: none;
+    perspective-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    font: normal normal normal normal 16px / normal Times;
+}/*#INS_38, #INS_169*/
+
+#SCRIPT_39, #SCRIPT_40, #SCRIPT_170 {
+    font: normal normal normal normal 16px / normal Times;
+}/*#SCRIPT_39, #SCRIPT_40, #SCRIPT_170*/
+
+#DIV_41 {
+    width: 100%;
+    margin: 0 auto;
+    font: normal normal normal normal 13px / 19px "Open Sans", "Lucida Sans Unicode", "Lucida Grande", Garuda, Arial, Helvetica, sans-serif;
+    max-width: 71.25rem;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 28px -1px;
+    padding: 0 2rem;
+    height: 100vh;
+    position: relative;
+    background: rgba(255,255,255,0.86);
+}/*#DIV_41*/
+
+#H2_42, #H2_173 {
+    color: rgb(134, 0, 0);
+    height: 19px;
+    text-align: justify;
+    width: 810.797px;
+    column-rule-color: rgb(134, 0, 0);
+    perspective-origin: 405.391px 11px;
+    transform-origin: 405.391px 11px;
+    border-top: 0px none rgb(134, 0, 0);
+    border-right: 0px none rgb(134, 0, 0);
+    border-bottom: 1px solid rgb(134, 0, 0);
+    border-left: 0px none rgb(134, 0, 0);
+    font: normal normal bold normal 19.5px / 19px "Open Sans", "Lucida Sans Unicode", "Lucida Grande", Garuda, Arial, Helvetica, sans-serif;
+    margin: 0px 42.6719px 25.5938px 0px;
+    outline: rgb(134, 0, 0) none 0px;
+    padding: 0px 0px 2px;
+    text-align: center;
+    width: 100%;
+    padding-bottom: 0.4rem;
+    color: grey;
+}/*#H2_42, #H2_173*/
+
+#P_43 {
+    display: none;
+    height: auto;
+    text-align: justify;
+    width: auto;
+    perspective-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    font: normal normal normal normal 13px / 19px "Open Sans", "Lucida Sans Unicode", "Lucida Grande", Garuda, Arial, Helvetica, sans-serif;
+    margin: 20px 0px 12px;
+}/*#P_43*/
+
+#TABLE_44 {
+    border-collapse: collapse;
+    height: 398px;
+    table-layout: fixed;
+    text-align: left;
+    width: 100%;
+    perspective-origin: 426.5px 200px;
+    transform-origin: 426.5px 200px;
+    border-bottom: 3px solid rgb(204, 204, 204);
+    border-spacing: 2px 2px;
+    font: normal normal normal normal 13px / 19px "Open Sans", "Lucida Sans Unicode", "Lucida Grande", Garuda, Arial, Helvetica, sans-serif;
+    margin: 0px 0.234375px;
+}/*#TABLE_44*/
+
+#THEAD_45 {
+    border-collapse: collapse;
+    height: 36px;
+    text-align: left;
+    width: 853px;
+    perspective-origin: 426.5px 18px;
+    transform-origin: 426.5px 18px;
+    border-top: 0px none rgb(128, 128, 128);
+    border-right: 0px none rgb(128, 128, 128);
+    border-bottom: 0px none rgb(204, 204, 204);
+    border-left: 0px none rgb(128, 128, 128);
+    border-spacing: 2px 2px;
+    font: normal normal normal normal 13px / 19px "Open Sans", "Lucida Sans Unicode", "Lucida Grande", Garuda, Arial, Helvetica, sans-serif;
+}/*#THEAD_45*/
+
+#TR_46, #TR_67, #TR_77, #TR_87, #TR_97, #TR_107, #TR_117, #TR_127, #TR_137 {
+    border-collapse: collapse;
+    height: 17.9688px;
+    text-align: left;
+    vertical-align: middle;
+    width: 835.969px;
+    perspective-origin: 426.5px 18px;
+    transform-origin: 426.5px 18px;
+    border-top: 0px none rgb(128, 128, 128);
+    border-right: 0px none rgb(128, 128, 128);
+    border-bottom: 1px solid rgb(204, 204, 204);
+    border-left: 0px none rgb(128, 128, 128);
+    border-spacing: 2px 2px;
+    font: normal normal normal normal 13px / 19px "Open Sans", "Lucida Sans Unicode", "Lucida Grande", Garuda, Arial, Helvetica, sans-serif;
+    padding: 8.51562px;
+}/*#TR_46, #TR_67, #TR_77, #TR_87, #TR_97, #TR_107, #TR_117, #TR_127, #TR_137*/
+
+#TH_47 {
+    border-collapse: collapse;
+    height: 17.9688px;
+    text-align: left;
+    vertical-align: middle;
+    width: 24.9688px;
+    perspective-origin: 21px 18px;
+    transform-origin: 21px 18px;
+    border-bottom: 3px solid rgb(204, 204, 204);
+    border-spacing: 2px 2px;
+    font: normal normal normal normal 15.6px / 19px "Open Sans", "Lucida Sans Unicode", "Lucida Grande", Garuda, Arial, Helvetica, sans-serif;
+    padding: 8.51562px;
+}/*#TH_47*/
+
+#TH_48 {
+    border-collapse: collapse;
+    height: 17.9688px;
+    text-align: left;
+    vertical-align: middle;
+    width: 152.969px;
+    perspective-origin: 85px 18px;
+    transform-origin: 85px 18px;
+    border-bottom: 3px solid rgb(204, 204, 204);
+    border-spacing: 2px 2px;
+    font: normal normal normal normal 15.6px / 19px "Open Sans", "Lucida Sans Unicode", "Lucida Grande", Garuda, Arial, Helvetica, sans-serif;
+    padding: 8.51562px;
+}/*#TH_48*/
+
+#TH_49, #TH_50 {
+    border-collapse: collapse;
+    height: 17.9688px;
+    vertical-align: middle;
+    width: 73.9688px;
+    perspective-origin: 45.5px 18px;
+    transform-origin: 45.5px 18px;
+    border-bottom: 3px solid rgb(204, 204, 204);
+    border-spacing: 2px 2px;
+    font: normal normal normal normal 15.6px / 19px "Open Sans", "Lucida Sans Unicode", "Lucida Grande", Garuda, Arial, Helvetica, sans-serif;
+    padding: 8.51562px;
+}/*#TH_49, #TH_50*/
+
+#TH_51 {
+    border-collapse: collapse;
+    height: 17.9688px;
+    vertical-align: middle;
+    width: 73.9688px;
+    perspective-origin: 45.5px 18px;
+    transform-origin: 45.5px 18px;
+    border-bottom: 3px solid rgb(204, 204, 204);
+    border-spacing: 2px 2px;
+    font: normal normal normal normal 15.6px / 19px "Open Sans", "Lucida Sans Unicode", "Lucida Grande", Garuda, Arial, Helvetica, sans-serif;
+    padding: 8.51562px;
+}/*#TH_51*/
+
+#TH_52, #TH_53, #TH_55 {
+    border-collapse: collapse;
+    height: 17.9688px;
+    vertical-align: middle;
+    width: 74.9688px;
+    perspective-origin: 46px 18px;
+    transform-origin: 46px 18px;
+    border-bottom: 3px solid rgb(204, 204, 204);
+    border-spacing: 2px 2px;
+    font: normal normal normal normal 15.6px / 19px "Open Sans", "Lucida Sans Unicode", "Lucida Grande", Garuda, Arial, Helvetica, sans-serif;
+    padding: 8.51562px;
+}/*#TH_52, #TH_53, #TH_55*/
+
+#TH_54 {
+    border-collapse: collapse;
+    height: 17.9688px;
+    vertical-align: middle;
+    width: 74.9688px;
+    perspective-origin: 46px 18px;
+    transform-origin: 46px 18px;
+    border-bottom: 3px solid rgb(204, 204, 204);
+    border-spacing: 2px 2px;
+    font: normal normal normal normal 15.6px / 19px "Open Sans", "Lucida Sans Unicode", "Lucida Grande", Garuda, Arial, Helvetica, sans-serif;
+    padding: 8.51562px;
+}/*#TH_54*/
+
+#TBODY_56 {
+    border-collapse: collapse;
+    height: 362px;
+    text-align: left;
+    width: 853px;
+    perspective-origin: 426.5px 181px;
+    transform-origin: 426.5px 181px;
+    border-top: 0px none rgb(128, 128, 128);
+    border-right: 0px none rgb(128, 128, 128);
+    border-bottom: 0px none rgb(204, 204, 204);
+    border-left: 0px none rgb(128, 128, 128);
+    border-spacing: 2px 2px;
+    font: normal normal normal normal 13px / 19px "Open Sans", "Lucida Sans Unicode", "Lucida Grande", Garuda, Arial, Helvetica, sans-serif;
+}/*#TBODY_56*/
+
+#TR_57, #TR_147 {
+    border-collapse: collapse;
+    height: 18.9688px;
+    text-align: left;
+    vertical-align: middle;
+    width: 835.969px;
+    perspective-origin: 426.5px 18.5px;
+    transform-origin: 426.5px 18.5px;
+    border-top: 0px none rgb(128, 128, 128);
+    border-right: 0px none rgb(128, 128, 128);
+    border-bottom: 1px solid rgb(204, 204, 204);
+    border-left: 0px none rgb(128, 128, 128);
+    border-spacing: 2px 2px;
+    font: normal normal normal normal 13px / 19px "Open Sans", "Lucida Sans Unicode", "Lucida Grande", Garuda, Arial, Helvetica, sans-serif;
+    padding: 8.51562px;
+}/*#TR_57, #TR_147*/
+
+#TD_58, #TD_148 {
+    border-collapse: collapse;
+    height: 17.9688px;
+    text-align: left;
+    vertical-align: top;
+    width: 24.9688px;
+    perspective-origin: 21px 18.5px;
+    transform-origin: 21px 18.5px;
+    border-spacing: 2px 2px;
+    font: normal normal normal normal 13px / 19px "Open Sans", "Lucida Sans Unicode", "Lucida Grande", Garuda, Arial, Helvetica, sans-serif;
+    padding: 8.51562px;
+}/*#TD_58, #TD_148*/
+
+#TD_59, #TD_149 {
+    border-collapse: collapse;
+    height: 17.9688px;
+    text-align: left;
+    vertical-align: top;
+    width: 152.969px;
+    perspective-origin: 85px 18.5px;
+    transform-origin: 85px 18.5px;
+    border-spacing: 2px 2px;
+    font: normal normal normal normal 13px / 19px "Open Sans", "Lucida Sans Unicode", "Lucida Grande", Garuda, Arial, Helvetica, sans-serif;
+    padding: 8.51562px;
+}/*#TD_59, #TD_149*/
+
+#TD_60, #TD_61, #TD_150, #TD_152 {
+    border-collapse: collapse;
+    height: 17.9688px;
+    text-align: center;
+    vertical-align: top;
+    width: 73.9688px;
+    perspective-origin: 45.5px 18.5px;
+    transform-origin: 45.5px 18.5px;
+    border-spacing: 2px 2px;
+    font: normal normal normal normal 13px / 19px "Open Sans", "Lucida Sans Unicode", "Lucida Grande", Garuda, Arial, Helvetica, sans-serif;
+    padding: 8.51562px;
+}/*#TD_60, #TD_61, #TD_150, #TD_152*/
+
+#TD_62, #TD_151 {
+    border-collapse: collapse;
+    height: 17.9688px;
+    text-align: center;
+    vertical-align: top;
+    width: 73.9688px;
+    perspective-origin: 45.5px 18.5px;
+    transform-origin: 45.5px 18.5px;
+    border-spacing: 2px 2px;
+    font: normal normal normal normal 13px / 19px "Open Sans", "Lucida Sans Unicode", "Lucida Grande", Garuda, Arial, Helvetica, sans-serif;
+    padding: 8.51562px;
+}/*#TD_62, #TD_151*/
+
+#TD_63, #TD_64, #TD_66, #TD_153, #TD_155 {
+    border-collapse: collapse;
+    height: 17.9688px;
+    text-align: center;
+    vertical-align: top;
+    width: 74.9688px;
+    perspective-origin: 46px 18.5px;
+    transform-origin: 46px 18.5px;
+    border-spacing: 2px 2px;
+    font: normal normal normal normal 13px / 19px "Open Sans", "Lucida Sans Unicode", "Lucida Grande", Garuda, Arial, Helvetica, sans-serif;
+    padding: 8.51562px;
+}/*#TD_63, #TD_64, #TD_66, #TD_153, #TD_155*/
+
+#TD_65, #TD_154 {
+    border-collapse: collapse;
+    height: 17.9688px;
+    text-align: center;
+    vertical-align: top;
+    width: 74.9688px;
+    perspective-origin: 46px 18.5px;
+    transform-origin: 46px 18.5px;
+    border-spacing: 2px 2px;
+    font: normal normal normal normal 13px / 19px "Open Sans", "Lucida Sans Unicode", "Lucida Grande", Garuda, Arial, Helvetica, sans-serif;
+    padding: 8.51562px;
+}/*#TD_65, #TD_154*/
+
+#TD_68, #TD_78, #TD_88, #TD_98, #TD_108, #TD_118, #TD_128, #TD_138 {
+    border-collapse: collapse;
+    height: 17.9688px;
+    text-align: left;
+    vertical-align: top;
+    width: 24.9688px;
+    perspective-origin: 21px 18px;
+    transform-origin: 21px 18px;
+    border-spacing: 2px 2px;
+    font: normal normal normal normal 13px / 19px "Open Sans", "Lucida Sans Unicode", "Lucida Grande", Garuda, Arial, Helvetica, sans-serif;
+    padding: 8.51562px;
+}/*#TD_68, #TD_78, #TD_88, #TD_98, #TD_108, #TD_118, #TD_128, #TD_138*/
+
+#TD_69, #TD_79, #TD_89, #TD_99, #TD_109, #TD_119, #TD_129, #TD_139 {
+    border-collapse: collapse;
+    height: 17.9688px;
+    text-align: left;
+    vertical-align: top;
+    width: 152.969px;
+    perspective-origin: 85px 18px;
+    transform-origin: 85px 18px;
+    border-spacing: 2px 2px;
+    font: normal normal normal normal 13px / 19px "Open Sans", "Lucida Sans Unicode", "Lucida Grande", Garuda, Arial, Helvetica, sans-serif;
+    padding: 8.51562px;
+}/*#TD_69, #TD_79, #TD_89, #TD_99, #TD_109, #TD_119, #TD_129, #TD_139*/
+
+#TD_70, #TD_71, #TD_80, #TD_82, #TD_90, #TD_92, #TD_100, #TD_102, #TD_110, #TD_112, #TD_120, #TD_122, #TD_130, #TD_132, #TD_140, #TD_142 {
+    border-collapse: collapse;
+    height: 17.9688px;
+    text-align: center;
+    vertical-align: top;
+    width: 73.9688px;
+    perspective-origin: 45.5px 18px;
+    transform-origin: 45.5px 18px;
+    border-spacing: 2px 2px;
+    font: normal normal normal normal 13px / 19px "Open Sans", "Lucida Sans Unicode", "Lucida Grande", Garuda, Arial, Helvetica, sans-serif;
+    padding: 8.51562px;
+}/*#TD_70, #TD_71, #TD_80, #TD_82, #TD_90, #TD_92, #TD_100, #TD_102, #TD_110, #TD_112, #TD_120, #TD_122, #TD_130, #TD_132, #TD_140, #TD_142*/
+
+#TD_72, #TD_81, #TD_91, #TD_101, #TD_111, #TD_121, #TD_131, #TD_141 {
+    border-collapse: collapse;
+    height: 17.9688px;
+    text-align: center;
+    vertical-align: top;
+    width: 73.9688px;
+    perspective-origin: 45.5px 18px;
+    transform-origin: 45.5px 18px;
+    border-spacing: 2px 2px;
+    font: normal normal normal normal 13px / 19px "Open Sans", "Lucida Sans Unicode", "Lucida Grande", Garuda, Arial, Helvetica, sans-serif;
+    padding: 8.51562px;
+}/*#TD_72, #TD_81, #TD_91, #TD_101, #TD_111, #TD_121, #TD_131, #TD_141*/
+
+#TD_73, #TD_74, #TD_76, #TD_84, #TD_86, #TD_94, #TD_96, #TD_104, #TD_106, #TD_114, #TD_116, #TD_124, #TD_126, #TD_134, #TD_136, #TD_144, #TD_146 {
+    border-collapse: collapse;
+    height: 17.9688px;
+    text-align: center;
+    vertical-align: top;
+    width: 74.9688px;
+    perspective-origin: 46px 18px;
+    transform-origin: 46px 18px;
+    border-spacing: 2px 2px;
+    font: normal normal normal normal 13px / 19px "Open Sans", "Lucida Sans Unicode", "Lucida Grande", Garuda, Arial, Helvetica, sans-serif;
+    padding: 8.51562px;
+}/*#TD_73, #TD_74, #TD_76, #TD_84, #TD_86, #TD_94, #TD_96, #TD_104, #TD_106, #TD_114, #TD_116, #TD_124, #TD_126, #TD_134, #TD_136, #TD_144, #TD_146*/
+
+#TD_75, #TD_83, #TD_93, #TD_103, #TD_113, #TD_123, #TD_133, #TD_143 {
+    border-collapse: collapse;
+    height: 17.9688px;
+    text-align: center;
+    vertical-align: top;
+    width: 74.9688px;
+    perspective-origin: 46px 18px;
+    transform-origin: 46px 18px;
+    border-spacing: 2px 2px;
+    font: normal normal normal normal 13px / 19px "Open Sans", "Lucida Sans Unicode", "Lucida Grande", Garuda, Arial, Helvetica, sans-serif;
+    padding: 8.51562px;
+}/*#TD_75, #TD_83, #TD_93, #TD_103, #TD_113, #TD_123, #TD_133, #TD_143*/
+
+#TD_85, #TD_95, #TD_115, #TD_135 {
+    border-collapse: collapse;
+    height: 17.9688px;
+    text-align: center;
+    vertical-align: top;
+    width: 74.9688px;
+    perspective-origin: 46px 18px;
+    transform-origin: 46px 18px;
+    border-spacing: 2px 2px;
+    font: normal normal normal normal 13px / 19px "Open Sans", "Lucida Sans Unicode", "Lucida Grande", Garuda, Arial, Helvetica, sans-serif;
+    padding: 8.51562px;
+}/*#TD_85, #TD_95, #TD_115, #TD_135*/
+
+#TD_105, #TD_125 {
+    border-collapse: collapse;
+    height: 17.9688px;
+    text-align: center;
+    vertical-align: top;
+    width: 74.9688px;
+    perspective-origin: 46px 18px;
+    transform-origin: 46px 18px;
+    border-spacing: 2px 2px;
+    font: normal normal normal normal 13px / 19px "Open Sans", "Lucida Sans Unicode", "Lucida Grande", Garuda, Arial, Helvetica, sans-serif;
+    padding: 8.51562px;
+}/*#TD_105, #TD_125*/
+
+#TD_145 {
+    border-collapse: collapse;
+    height: 17.9688px;
+    text-align: center;
+    vertical-align: top;
+    width: 74.9688px;
+    perspective-origin: 46px 18px;
+    transform-origin: 46px 18px;
+    border-spacing: 2px 2px;
+    font: normal normal normal normal 13px / 19px "Open Sans", "Lucida Sans Unicode", "Lucida Grande", Garuda, Arial, Helvetica, sans-serif;
+    padding: 8.51562px;
+}/*#TD_145*/
+
+#TD_156 {
+    border-collapse: collapse;
+    height: 17.9688px;
+    text-align: center;
+    vertical-align: top;
+    width: 74.9688px;
+    perspective-origin: 46px 18.5px;
+    transform-origin: 46px 18.5px;
+    border-spacing: 2px 2px;
+    font: normal normal normal normal 13px / 19px "Open Sans", "Lucida Sans Unicode", "Lucida Grande", Garuda, Arial, Helvetica, sans-serif;
+    padding: 8.51562px;
+}/*#TD_156*/
+
+#DIV_157 {
+    display: none;
+    height: auto;
+    text-align: justify;
+    width: auto;
+    perspective-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    font: normal normal normal normal 13px / 19px "Open Sans", "Lucida Sans Unicode", "Lucida Grande", Garuda, Arial, Helvetica, sans-serif;
+    margin: 30px 0px 40px;
+}/*#DIV_157*/
+
+#A_158, #A_159, #A_161 {
+    color: rgb(134, 0, 0);
+    text-decoration: none;
+    column-rule-color: rgb(134, 0, 0);
+    perspective-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    border: 0px none rgb(134, 0, 0);
+    font: normal normal normal normal 16px / normal Times;
+    outline: rgb(134, 0, 0) none 0px;
+}/*#A_158, #A_159, #A_161*/
+
+#A_160, #A_162 {
+    color: rgb(134, 0, 0);
+    text-decoration: none;
+    column-rule-color: rgb(134, 0, 0);
+    perspective-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    border: 0px none rgb(134, 0, 0);
+    font: normal normal normal normal 16px / normal Times;
+    outline: rgb(134, 0, 0) none 0px;
+}/*#A_160, #A_162*/
+
+#SCRIPT_163, #SCRIPT_164, #SCRIPT_180 {
+    text-align: justify;
+    font: normal normal normal normal 13px / 19px "Open Sans", "Lucida Sans Unicode", "Lucida Grande", Garuda, Arial, Helvetica, sans-serif;
+}/*#SCRIPT_163, #SCRIPT_164, #SCRIPT_180*/
+
+#P_165 {
+    height: 42px;
+    text-align: left;
+    width: 853.469px;
+    perspective-origin: 426.734px 21px;
+    transform-origin: 426.734px 21px;
+    font: normal normal normal normal 11px / 14px "Open Sans", "Lucida Sans Unicode", "Lucida Grande", Garuda, Arial, Helvetica, sans-serif;
+    margin: 0px 0px 12px;
+}/*#P_165*/
+
+#P_166 {
+    height: 19px;
+    text-align: justify;
+    width: 853.469px;
+    perspective-origin: 426.734px 9.5px;
+    transform-origin: 426.734px 9.5px;
+    font: normal normal normal normal 13px / 19px "Open Sans", "Lucida Sans Unicode", "Lucida Grande", Garuda, Arial, Helvetica, sans-serif;
+    margin: 0px 0px 12px;
+}/*#P_166*/
+
+#A_167 {
+    color: rgb(134, 0, 0);
+    text-align: justify;
+    text-decoration: none;
+    column-rule-color: rgb(134, 0, 0);
+    border: 0px none rgb(134, 0, 0);
+    font: normal normal normal normal 13px / 19px "Open Sans", "Lucida Sans Unicode", "Lucida Grande", Garuda, Arial, Helvetica, sans-serif;
+    outline: rgb(134, 0, 0) none 0px;
+}/*#A_167*/
+
+#SCRIPT_171 {
+    font: normal normal normal normal 16px / normal Times;
+}/*#SCRIPT_171*/
+
+#DIV_172 {
+    height: 389.672px;
+    text-align: justify;
+    width: 853.469px;
+    perspective-origin: 444.5px 194.828px;
+    transform-origin: 444.5px 194.828px;
+    font: normal normal normal normal 13px / 19px "Open Sans", "Lucida Sans Unicode", "Lucida Grande", Garuda, Arial, Helvetica, sans-serif;
+    margin: 44.4375px 0px 0px;
+    padding: 0px 17.7656px;
+}/*#DIV_172*/
+
+#OL_174 {
+    display: none;
+    height: auto;
+    text-align: justify;
+    width: auto;
+    perspective-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    font: normal normal normal normal 13px / 19px "Open Sans", "Lucida Sans Unicode", "Lucida Grande", Garuda, Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px 5%;
+}/*#OL_174*/
+
+#DIV_175 {
+    height: 325px;
+    text-align: justify;
+    width: 819.344px;
+    perspective-origin: 426.734px 162.5px;
+    transform-origin: 426.734px 162.5px;
+    font: normal normal normal normal 13px / 19px "Open Sans", "Lucida Sans Unicode", "Lucida Grande", Garuda, Arial, Helvetica, sans-serif;
+    margin: 42.6719px 0px 0px;
+    padding: 0px 17.0625px;
+}/*#DIV_175*/
+
+#DIV_176 {
+    height: 325px;
+    text-align: justify;
+    width: 852.094px;
+    perspective-origin: 426.047px 162.5px;
+    transform-origin: 426.047px 162.5px;
+    font: normal normal normal normal 13px / 19px "Open Sans", "Lucida Sans Unicode", "Lucida Grande", Garuda, Arial, Helvetica, sans-serif;
+    margin: 0px -16.375px;
+}/*#DIV_176*/
+
+#IFRAME_177 {
+    height: 320px;
+    min-width: 100%;
+    text-align: justify;
+    width: 852.094px;
+    perspective-origin: 426.047px 160px;
+    transform-origin: 426.047px 160px;
+    border: 0px none rgb(0, 0, 0);
+    font: normal normal normal normal 13px / 19px "Open Sans", "Lucida Sans Unicode", "Lucida Grande", Garuda, Arial, Helvetica, sans-serif;
+}/*#IFRAME_177*/
+
+#IFRAME_178 {
+    display: none;
+    height: 18px;
+    max-height: 18px;
+    max-width: 852px;
+    min-height: 18px;
+    min-width: 852px;
+    position: fixed;
+    text-align: justify;
+    top: 0px;
+    width: 852px;
+    z-index: 2147483646;
+    perspective-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    border: 0px none rgb(0, 0, 0);
+    font: normal normal normal normal 13px / 19px "Open Sans", "Lucida Sans Unicode", "Lucida Grande", Garuda, Arial, Helvetica, sans-serif;
+    overflow: hidden;
+}/*#IFRAME_178*/
+
+#IFRAME_179 {
+    bottom: 0px;
+    display: none;
+    height: 18px;
+    max-height: 18px;
+    max-width: 852px;
+    min-height: 18px;
+    min-width: 852px;
+    position: fixed;
+    text-align: justify;
+    width: 852px;
+    z-index: 2147483646;
+    perspective-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    border: 0px none rgb(0, 0, 0);
+    font: normal normal normal normal 13px / 19px "Open Sans", "Lucida Sans Unicode", "Lucida Grande", Garuda, Arial, Helvetica, sans-serif;
+    overflow: hidden;
+}/*#IFRAME_179*/
+
+#NOSCRIPT_181 {
+    text-align: justify;
+    font: normal normal normal normal 13px / 19px "Open Sans", "Lucida Sans Unicode", "Lucida Grande", Garuda, Arial, Helvetica, sans-serif;
+}/*#NOSCRIPT_181*/
+
+#BR_182 {
+    clear: both;
+    text-align: justify;
+    font: normal normal normal normal 13px / 19px "Open Sans", "Lucida Sans Unicode", "Lucida Grande", Garuda, Arial, Helvetica, sans-serif;
+}/*#BR_182*/
+
+#BR_183 {
+    clear: both;
+    font: normal normal normal normal 13px / normal "Open Sans", "Lucida Sans Unicode", "Lucida Grande", Garuda, Arial, Helvetica, sans-serif;
+}/*#BR_183*/
+
+#DIV_184 {
+    height: 110px;
+    width: 889px;
+    perspective-origin: 444.5px 55.5px;
+    transform-origin: 444.5px 55.5px;
+    background: rgb(252, 245, 245) none repeat scroll 0% 0% / auto padding-box border-box;
+    border-top: 1px solid rgb(131, 0, 0);
+    font: normal normal normal normal 13px / normal "Open Sans", "Lucida Sans Unicode", "Lucida Grande", Garuda, Arial, Helvetica, sans-serif;
+    margin: 50px 0px 0px;
+    display: none;
+}/*#DIV_184*/
+
+#DIV_185 {
+    height: 60px;
+    width: 839px;
+    perspective-origin: 444.5px 55px;
+    transform-origin: 444.5px 55px;
+    font: normal normal normal normal 11px / normal "Open Sans", "Lucida Sans Unicode", "Lucida Grande", Garuda, Arial, Helvetica, sans-serif;
+    padding: 25px;
+    display: none;
+}/*#DIV_185*/
+
+#UL_186 {
+    width: 839px;
+    perspective-origin: 419.5px 0px;
+    transform-origin: 419.5px 0px;
+    font: normal normal normal normal 11px / normal "Open Sans", "Lucida Sans Unicode", "Lucida Grande", Garuda, Arial, Helvetica, sans-serif;
+    list-style: none outside none;
+    margin: 0px;
+    padding: 0px;
+}/*#UL_186*/
+
+#LI_187 {
+    float: left;
+    height: 15px;
+    width: 51.1406px;
+    perspective-origin: 25.5625px 7.5px;
+    transform-origin: 25.5625px 7.5px;
+    font: normal normal normal normal 11px / normal "Open Sans", "Lucida Sans Unicode", "Lucida Grande", Garuda, Arial, Helvetica, sans-serif;
+    list-style: none outside none;
+    margin: 0px 10px 0px 0px;
+}/*#LI_187*/
+
+#A_188, #A_190, #A_192, #A_194 {
+    color: rgb(134, 0, 0);
+    text-align: left;
+    text-decoration: none;
+    column-rule-color: rgb(134, 0, 0);
+    border: 0px none rgb(134, 0, 0);
+    font: normal normal normal normal 11px / normal "Open Sans", "Lucida Sans Unicode", "Lucida Grande", Garuda, Arial, Helvetica, sans-serif;
+    list-style: none outside none;
+    outline: rgb(134, 0, 0) none 0px;
+}/*#A_188, #A_190, #A_192, #A_194*/
+
+#LI_189 {
+    float: left;
+    height: 15px;
+    width: 60.75px;
+    perspective-origin: 30.375px 7.5px;
+    transform-origin: 30.375px 7.5px;
+    font: normal normal normal normal 11px / normal "Open Sans", "Lucida Sans Unicode", "Lucida Grande", Garuda, Arial, Helvetica, sans-serif;
+    list-style: none outside none;
+    margin: 0px 10px 0px 0px;
+}/*#LI_189*/
+
+#LI_191 {
+    float: left;
+    height: 15px;
+    width: 73.4531px;
+    perspective-origin: 36.7188px 7.5px;
+    transform-origin: 36.7188px 7.5px;
+    font: normal normal normal normal 11px / normal "Open Sans", "Lucida Sans Unicode", "Lucida Grande", Garuda, Arial, Helvetica, sans-serif;
+    list-style: none outside none;
+    margin: 0px 10px 0px 0px;
+}/*#LI_191*/
+
+#LI_193 {
+    float: left;
+    height: 15px;
+    width: 80.75px;
+    perspective-origin: 40.375px 7.5px;
+    transform-origin: 40.375px 7.5px;
+    font: normal normal normal normal 11px / normal "Open Sans", "Lucida Sans Unicode", "Lucida Grande", Garuda, Arial, Helvetica, sans-serif;
+    list-style: none outside none;
+    margin: 0px 10px 0px 0px;
+}/*#LI_193*/
+
+#BR_195 {
+    clear: both;
+    font: normal normal normal normal 11px / normal "Open Sans", "Lucida Sans Unicode", "Lucida Grande", Garuda, Arial, Helvetica, sans-serif;
+}/*#BR_195*/
+
+#P_196 {
+    clear: both;
+    height: 15px;
+    width: 839px;
+    perspective-origin: 419.5px 7.5px;
+    transform-origin: 419.5px 7.5px;
+    font: normal normal normal normal 11px / normal "Open Sans", "Lucida Sans Unicode", "Lucida Grande", Garuda, Arial, Helvetica, sans-serif;
+    margin: 10px 0px 0px;
+}/*#P_196*/
+
+#DIV_197 {
+    text-align: left;
+    width: 1280px;
+    perspective-origin: 640px 0px;
+    transform-origin: 640px 0px;
+    font: normal normal normal normal 11px / 11px "lucida grande", tahoma, verdana, arial, sans-serif;
+}/*#DIV_197*/
+
+#DIV_198, #DIV_202 {
+    bottom: 10443px;
+    left: 0px;
+    position: absolute;
+    right: 1280px;
+    text-align: left;
+    top: -10000px;
+    font: normal normal normal normal 11px / 11px "lucida grande", tahoma, verdana, arial, sans-serif;
+    overflow: hidden;
+}/*#DIV_198, #DIV_202*/
+
+#DIV_199 {
+    height: 302px;
+    text-align: left;
+    perspective-origin: 0px 151px;
+    transform-origin: 0px 151px;
+    font: normal normal normal normal 11px / 11px "lucida grande", tahoma, verdana, arial, sans-serif;
+}/*#DIV_199*/
+
+#IFRAME_200, #IFRAME_201 {
+    height: 150px;
+    text-align: left;
+    perspective-origin: 150px 75px;
+    transform-origin: 150px 75px;
+    border: 0px none rgb(0, 0, 0);
+    font: normal normal normal normal 11px / 11px "lucida grande", tahoma, verdana, arial, sans-serif;
+}/*#IFRAME_200, #IFRAME_201*/
+
+#DIV_203 {
+    text-align: left;
+    font: normal normal normal normal 11px / 11px "lucida grande", tahoma, verdana, arial, sans-serif;
+}/*#DIV_203*/
+
+#IFRAME_204 {
+    display: none;
+    height: auto;
+    width: auto;
+    perspective-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    border: 2px inset rgb(0, 0, 0);
+    font: normal normal normal normal 13px / normal "Open Sans", "Lucida Sans Unicode", "Lucida Grande", Garuda, Arial, Helvetica, sans-serif;
+}/*#IFRAME_204*/
+
+.smash-icon{
+    background: url('../img/SmashBallAnimation.gif');
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: -70px;
+    right: 26%;
+    padding: 23%;
+    z-index: 0;
+    opacity: 0.24;
+}
+
+.header-outer-sign{
+    padding-top: 6rem;
+    padding-bottom: 7.5rem;
+}
+
+.header-inner-sign{
+    display: block;
+    max-width: 431px;
+    width: 431px;
+    padding: 5%;
+    position: relative;
+    margin: 0 auto;
+    background: url('../img/verb-logo-1.svg');
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.header-inner-left-sign{
+    position: absolute;
+    top: 40px;
+    left: 0;
+    display: block;
+    max-width: 200px;
+    width: 200px;
+    height: 200px;
+    background: url('../img/mario.gif');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.header-inner-right-sign{
+    position: absolute;
+    top: 40px;
+    right: 0;
+    display: block;
+    max-width: 200px;
+    width: 200px;
+    height: 200px;
+    background: url('../img/mario.gif');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.header-inner-sign a{
+    color: transparent;
+}
+
+body{
+    background: url('../img/lvl.jpg');
+    background-position: center center;
+    backgrond-size: cover;
+}
