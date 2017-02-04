@@ -289,30 +289,30 @@ textarea {
     perspective-origin: 640px 221.5px;
     transform-origin: 640px 221.5px;
     background: rgb(235, 235, 235) url("http://tournamentscheduler.net/resources/images/tilebg.png") repeat scroll 0% 0% / auto padding-box border-box;
-    font: normal normal normal normal 13px / normal "Open Sans", "Lucida Sans Unicode", "Lucida Grande", Garuda, Arial, Helvetica, sans-serif;
+    font: normal normal normal normal 0.75rem / normal "Open Sans", "Lucida Sans Unicode", "Lucida Grande", Garuda, Arial, Helvetica, sans-serif;
 }/*#HTML_1*/
 
 #HEAD_2, #META_3, #LINK_6, #META_8, #META_10, #META_12, #LINK_14, #LINK_16, #SCRIPT_18, #SCRIPT_20, #SCRIPT_22, #SCRIPT_24, #SCRIPT_26, #STYLE_28 {
-    font: normal normal normal normal 13px / normal "Open Sans", "Lucida Sans Unicode", "Lucida Grande", Garuda, Arial, Helvetica, sans-serif;
+    font: normal normal normal normal 0.75rem / normal "Open Sans", "Lucida Sans Unicode", "Lucida Grande", Garuda, Arial, Helvetica, sans-serif;
   font-weight: 300;
 }/*#HEAD_2, #META_3, #LINK_6, #META_8, #META_10, #META_12, #LINK_14, #LINK_16, #SCRIPT_18, #SCRIPT_20, #SCRIPT_22, #SCRIPT_24, #SCRIPT_26, #STYLE_28*/
 
 #TITLE_4, #META_7, #META_11, #LINK_15, #SCRIPT_19, #SCRIPT_23, #SCRIPT_27 {
-    font: normal normal normal normal 13px / normal "Open Sans", "Lucida Sans Unicode", "Lucida Grande", Garuda, Arial, Helvetica, sans-serif;
+    font: normal normal normal normal 0.75rem / normal "Open Sans", "Lucida Sans Unicode", "Lucida Grande", Garuda, Arial, Helvetica, sans-serif;
 }/*#TITLE_4, #META_7, #META_11, #LINK_15, #SCRIPT_19, #SCRIPT_23, #SCRIPT_27*/
 
 #BASE_5 {
     perspective-origin: 50% 50%;
     transform-origin: 50% 50%;
-    font: normal normal normal normal 13px / normal "Open Sans", "Lucida Sans Unicode", "Lucida Grande", Garuda, Arial, Helvetica, sans-serif;
+    font: normal normal normal normal 0.75rem / normal "Open Sans", "Lucida Sans Unicode", "Lucida Grande", Garuda, Arial, Helvetica, sans-serif;
 }/*#BASE_5*/
 
 #META_9, #META_13, #SCRIPT_21, #STYLE_29 {
-    font: normal normal normal normal 13px / normal "Open Sans", "Lucida Sans Unicode", "Lucida Grande", Garuda, Arial, Helvetica, sans-serif;
+    font: normal normal normal normal 0.75rem / normal "Open Sans", "Lucida Sans Unicode", "Lucida Grande", Garuda, Arial, Helvetica, sans-serif;
 }/*#META_9, #META_13, #SCRIPT_21, #STYLE_29*/
 
 #SCRIPT_17, #SCRIPT_25 {
-    font: normal normal normal normal 13px / normal "Open Sans", "Lucida Sans Unicode", "Lucida Grande", Garuda, Arial, Helvetica, sans-serif;
+    font: normal normal normal normal 0.75rem / normal "Open Sans", "Lucida Sans Unicode", "Lucida Grande", Garuda, Arial, Helvetica, sans-serif;
 }/*#SCRIPT_17, #SCRIPT_25*/
 
 #BODY_30 {
@@ -321,7 +321,7 @@ textarea {
     perspective-origin: 640px 221.5px;
     transform-origin: 640px 221.5px;
     background: rgb(235, 235, 235) url("http://tournamentscheduler.net/resources/images/tilebg.png") repeat scroll 0% 0% / auto padding-box border-box;
-    font: normal normal normal normal 13px / normal "Open Sans", "Lucida Sans Unicode", "Lucida Grande", Garuda, Arial, Helvetica, sans-serif;
+    font: normal normal normal normal 0.75rem / normal "Open Sans", "Lucida Sans Unicode", "Lucida Grande", Garuda, Arial, Helvetica, sans-serif;
     margin: 0px;
 }/*#BODY_30*/
 
@@ -339,7 +339,7 @@ textarea {
     perspective-origin: 444.5px 675.672px;
     transform-origin: 444.5px 675.672px;
     background: rgb(255, 255, 255) none repeat scroll 0% 0% / auto padding-box border-box;
-    font: normal normal normal normal 13px / normal "Open Sans", "Lucida Sans Unicode", "Lucida Grande", Garuda, Arial, Helvetica, sans-serif;
+    font: normal normal normal normal 0.75rem / normal "Open Sans", "Lucida Sans Unicode", "Lucida Grande", Garuda, Arial, Helvetica, sans-serif;
     margin: 0px 195.5px;
 }/*#DIV_31*/
 
@@ -348,7 +348,7 @@ textarea {
     width: 889px;
     perspective-origin: 444.5px 586.172px;
     transform-origin: 444.5px 586.172px;
-    font: normal normal normal normal 13px / normal "Open Sans", "Lucida Sans Unicode", "Lucida Grande", Garuda, Arial, Helvetica, sans-serif;
+    font: normal normal normal normal 0.75rem / normal "Open Sans", "Lucida Sans Unicode", "Lucida Grande", Garuda, Arial, Helvetica, sans-serif;
     overflow: hidden;
 }/*#DIV_32*/
 
@@ -426,10 +426,10 @@ textarea {
     width: 100%;
     margin: 0 auto;
     font: normal normal normal normal 13px / 19px "Open Sans", "Lucida Sans Unicode", "Lucida Grande", Garuda, Arial, Helvetica, sans-serif;
-    max-width: 71.25rem;
+    max-width: 60rem;
     box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 28px -1px;
     padding: 0 2rem;
-    height: 100vh;
+    height: calc(100vh + 2rem);
     position: relative;
     background: rgba(255,255,255,0.86);
 }/*#DIV_41*/
@@ -1011,7 +1011,7 @@ textarea {
 
 #BR_183 {
     clear: both;
-    font: normal normal normal normal 13px / normal "Open Sans", "Lucida Sans Unicode", "Lucida Grande", Garuda, Arial, Helvetica, sans-serif;
+    font: normal normal normal normal 0.75rem / normal "Open Sans", "Lucida Sans Unicode", "Lucida Grande", Garuda, Arial, Helvetica, sans-serif;
 }/*#BR_183*/
 
 #DIV_184 {
@@ -1021,7 +1021,7 @@ textarea {
     transform-origin: 444.5px 55.5px;
     background: rgb(252, 245, 245) none repeat scroll 0% 0% / auto padding-box border-box;
     border-top: 1px solid rgb(131, 0, 0);
-    font: normal normal normal normal 13px / normal "Open Sans", "Lucida Sans Unicode", "Lucida Grande", Garuda, Arial, Helvetica, sans-serif;
+    font: normal normal normal normal 0.75rem / normal "Open Sans", "Lucida Sans Unicode", "Lucida Grande", Garuda, Arial, Helvetica, sans-serif;
     margin: 50px 0px 0px;
     display: none;
 }/*#DIV_184*/
@@ -1121,7 +1121,7 @@ textarea {
     width: 1280px;
     perspective-origin: 640px 0px;
     transform-origin: 640px 0px;
-    font: normal normal normal normal 11px / 11px "lucida grande", tahoma, verdana, arial, sans-serif;
+    font: normal normal normal normal 0.6875rem / 11px "lucida grande", tahoma, verdana, arial, sans-serif;
 }/*#DIV_197*/
 
 #DIV_198, #DIV_202 {
@@ -1131,7 +1131,7 @@ textarea {
     right: 1280px;
     text-align: left;
     top: -10000px;
-    font: normal normal normal normal 11px / 11px "lucida grande", tahoma, verdana, arial, sans-serif;
+    font: normal normal normal normal 0.6875rem / 11px "lucida grande", tahoma, verdana, arial, sans-serif;
     overflow: hidden;
 }/*#DIV_198, #DIV_202*/
 
@@ -1140,7 +1140,7 @@ textarea {
     text-align: left;
     perspective-origin: 0px 151px;
     transform-origin: 0px 151px;
-    font: normal normal normal normal 11px / 11px "lucida grande", tahoma, verdana, arial, sans-serif;
+    font: normal normal normal normal 0.6875rem / 11px "lucida grande", tahoma, verdana, arial, sans-serif;
 }/*#DIV_199*/
 
 #IFRAME_200, #IFRAME_201 {
@@ -1149,12 +1149,12 @@ textarea {
     perspective-origin: 150px 75px;
     transform-origin: 150px 75px;
     border: 0px none rgb(0, 0, 0);
-    font: normal normal normal normal 11px / 11px "lucida grande", tahoma, verdana, arial, sans-serif;
+    font: normal normal normal normal 0.6875rem / 11px "lucida grande", tahoma, verdana, arial, sans-serif;
 }/*#IFRAME_200, #IFRAME_201*/
 
 #DIV_203 {
     text-align: left;
-    font: normal normal normal normal 11px / 11px "lucida grande", tahoma, verdana, arial, sans-serif;
+    font: normal normal normal normal 0.6875rem / 11px "lucida grande", tahoma, verdana, arial, sans-serif;
 }/*#DIV_203*/
 
 #IFRAME_204 {
@@ -1164,7 +1164,7 @@ textarea {
     perspective-origin: 50% 50%;
     transform-origin: 50% 50%;
     border: 2px inset rgb(0, 0, 0);
-    font: normal normal normal normal 13px / normal "Open Sans", "Lucida Sans Unicode", "Lucida Grande", Garuda, Arial, Helvetica, sans-serif;
+    font: normal normal normal normal 0.75rem / normal "Open Sans", "Lucida Sans Unicode", "Lucida Grande", Garuda, Arial, Helvetica, sans-serif;
 }/*#IFRAME_204*/
 
 .smash-icon{
@@ -1231,4 +1231,50 @@ body{
     background: url('../img/lvl.jpg');
     background-position: center center;
     backgrond-size: cover;
+    background-repeat: no-repeat;
+}
+
+span.t-caret{
+    display: none;
+}
+
+del{
+    text-decoration: none;
+}
+
+html {
+    -webkit-animation: fadein 1.2s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 1.2s; /* Firefox < 16 */
+        -ms-animation: fadein 1.2s; /* Internet Explorer */
+         -o-animation: fadein 1.2s; /* Opera < 12.1 */
+            animation: fadein 1.2s;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
 }
