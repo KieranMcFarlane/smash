@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 104 28"
+	 style="enable-background:new 0 0 104 28;" xml:space="preserve">
+<style type="text/css">
+	.st0{filter:url(#Adobe_OpacityMaskFilter);}
+	.st1{fill:#FFFFFF;}
+	.st2{mask:url(#mask-2);fill:#42454E;}
+	.st3{fill:#42454E;}
+</style>
+<title>Verb Logo</title>
+<desc>Created with Sketch.</desc>
+<g id="Welcome" sketch:type="MSPage">
+	<g id="Desktop-Active" transform="translate(-48.000000, -77.000000)" sketch:type="MSArtboardGroup">
+		<g id="sidebar" sketch:type="MSLayerGroup">
+			<g id="Verb-Logo" transform="translate(48.000000, 77.000000)">
+				<g id="Group-3">
+					<g id="Clip-2">
+					</g>
+					<defs>
+						<filter id="Adobe_OpacityMaskFilter" filterUnits="userSpaceOnUse" x="0" y="5.2" width="22.4" height="22.8">
+							<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+						</filter>
+					</defs>
+					<mask maskUnits="userSpaceOnUse" x="0" y="5.2" width="22.4" height="22.8" id="mask-2">
+						<g class="st0">
+							<path id="path-1" class="st1" d="M0,0h104v28H0"/>
+						</g>
+					</mask>
+					<path id="Fill-1" sketch:type="MSShapeGroup" class="st2" d="M0,5.2h4.4l6.9,17.4l6.8-17.4h4.3L13,28H9.5L0,5.2"/>
+				</g>
+				<path id="Fill-4" sketch:type="MSShapeGroup" class="st3" d="M29.6,5.2h16.9v3.6H33.6v5.9H45v3.6H33.6v6.1h13v3.6h-17V5.2"/>
+				<path id="Fill-5" sketch:type="MSShapeGroup" class="st3" d="M69.9,16.4V8.8h-5.8c-3,0-4.7,1.3-4.7,3.8v0.1
+					c0,2.3,1.8,3.8,4.7,3.8H69.9L69.9,16.4z M73.9,27.8h-4v-7.9h-5l-5.6,7.9h-4.7l6.1-8.6c-3.2-0.9-5.4-3.1-5.4-6.9v-0.1
+					c0-2,0.7-3.7,1.9-4.9c1.5-1.4,3.7-2.3,6.6-2.3h10.1V27.8L73.9,27.8z"/>
+				<path id="Fill-6" sketch:type="MSShapeGroup" class="st3" d="M92,24.3c2.7,0,4.4-1.1,4.4-3.1v-0.1c0-1.9-1.5-3-4.7-3h-6.3v6.2
+					H92L92,24.3z M90.8,14.7c2.6,0,4.3-1,4.3-3.1v-0.1c0-1.8-1.4-2.9-4-2.9h-5.8v6H90.8L90.8,14.7z M81.4,5.2h10.2
+					c2.6,0,4.6,0.7,5.9,2c1,1,1.5,2.2,1.5,3.8V11c0,2.7-1.6,4.2-3.3,5.1c2.7,0.9,4.5,2.4,4.5,5.5v0.1c0,4.1-3.3,6.2-8.4,6.2H81.4
+					V5.2L81.4,5.2z"/>
+				<path id="Fill-7" sketch:type="MSShapeGroup" class="st3" d="M101.8,1.8h0.2c0.2,0,0.4-0.1,0.4-0.3c0-0.2-0.1-0.3-0.4-0.3
+					c-0.1,0-0.2,0-0.2,0V1.8L101.8,1.8z M101.8,2.8h-0.4V1c0.2,0,0.4-0.1,0.7-0.1c0.3,0,0.5,0.1,0.6,0.1c0.1,0.1,0.2,0.2,0.2,0.4
+					c0,0.2-0.2,0.4-0.4,0.4v0c0.2,0.1,0.3,0.2,0.3,0.4c0.1,0.3,0.1,0.4,0.1,0.5h-0.5c-0.1-0.1-0.1-0.2-0.1-0.4
+					c0-0.2-0.1-0.3-0.4-0.3h-0.2V2.8L101.8,2.8z M100.7,1.8c0,0.8,0.6,1.4,1.4,1.4c0.8,0,1.4-0.6,1.4-1.4c0-0.8-0.6-1.5-1.4-1.5
+					C101.3,0.4,100.7,1,100.7,1.8L100.7,1.8z M104,1.8c0,1-0.8,1.8-1.9,1.8c-1,0-1.9-0.8-1.9-1.8c0-1,0.8-1.8,1.9-1.8
+					C103.2,0,104,0.8,104,1.8L104,1.8z"/>
+			</g>
+		</g>
+	</g>
+</g>
+</svg>

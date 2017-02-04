@@ -423,14 +423,15 @@ textarea {
 }/*#SCRIPT_39, #SCRIPT_40, #SCRIPT_170*/
 
 #DIV_41 {
-    height: 520.594px;
-    text-align: justify;
-    width: 853.469px;
-    perspective-origin: 444.5px 260.297px;
-    transform-origin: 444.5px 260.297px;
+    width: 100%;
+    margin: 0 auto;
     font: normal normal normal normal 13px / 19px "Open Sans", "Lucida Sans Unicode", "Lucida Grande", Garuda, Arial, Helvetica, sans-serif;
-    margin: 44.4375px 0px 0px;
-    padding: 0px 17.7656px;
+    max-width: 71.25rem;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 28px -1px;
+    padding: 0 2rem;
+    height: 100vh;
+    position: relative;
+    background: rgba(255,255,255,0.86);
 }/*#DIV_41*/
 
 #H2_42, #H2_173 {
@@ -449,6 +450,10 @@ textarea {
     margin: 0px 42.6719px 25.5938px 0px;
     outline: rgb(134, 0, 0) none 0px;
     padding: 0px 0px 2px;
+    text-align: center;
+    width: 100%;
+    padding-bottom: 0.4rem;
+    color: grey;
 }/*#H2_42, #H2_173*/
 
 #P_43 {
@@ -467,7 +472,7 @@ textarea {
     height: 398px;
     table-layout: fixed;
     text-align: left;
-    width: 853px;
+    width: 100%;
     perspective-origin: 426.5px 200px;
     transform-origin: 426.5px 200px;
     border-bottom: 3px solid rgb(204, 204, 204);
@@ -1162,4 +1167,68 @@ textarea {
     font: normal normal normal normal 13px / normal "Open Sans", "Lucida Sans Unicode", "Lucida Grande", Garuda, Arial, Helvetica, sans-serif;
 }/*#IFRAME_204*/
 
+.smash-icon{
+    background: url('../img/SmashBallAnimation.gif');
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: -70px;
+    right: 26%;
+    padding: 23%;
+    z-index: 0;
+    opacity: 0.24;
+}
 
+.header-outer-sign{
+    padding-top: 6rem;
+    padding-bottom: 7.5rem;
+}
+
+.header-inner-sign{
+    display: block;
+    max-width: 431px;
+    width: 431px;
+    padding: 5%;
+    position: relative;
+    margin: 0 auto;
+    background: url('../img/verb-logo-1.svg');
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.header-inner-left-sign{
+    position: absolute;
+    top: 40px;
+    left: 0;
+    display: block;
+    max-width: 200px;
+    width: 200px;
+    height: 200px;
+    background: url('../img/mario.gif');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.header-inner-right-sign{
+    position: absolute;
+    top: 40px;
+    right: 0;
+    display: block;
+    max-width: 200px;
+    width: 200px;
+    height: 200px;
+    background: url('../img/mario.gif');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.header-inner-sign a{
+    color: transparent;
+}
+
+body{
+    background: url('../img/lvl.jpg');
+    background-position: center center;
+    backgrond-size: cover;
+}
