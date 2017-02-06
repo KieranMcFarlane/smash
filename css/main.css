@@ -1233,7 +1233,7 @@ textarea {
 body{
     background: url('../img/lvl.jpg');
     background-position: center center;
-    backgrond-size: cover;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
