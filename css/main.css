@@ -434,8 +434,8 @@ textarea {
     position: relative;
     background: rgba(255,255,255,0.86);
     // height: calc(100vh + 2rem);
-    height: 100%;
-    min-height: 45.625rem;
+    height: 100vh;
+    min-height: 46.1875rem;
 }/*#DIV_41*/
 
 #H2_42, #H2_173 {
